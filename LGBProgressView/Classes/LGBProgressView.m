@@ -28,7 +28,7 @@ NS_INLINE CGRect CGRect_Integral(CGRect rect) {
 {
     [view addSubview:self];
     
-    [self updateSubviewsLayout];
+    [self updateSubviewsLayout:NO];
     [self showAnimated:YES];
 }
 
@@ -51,9 +51,9 @@ NS_INLINE CGRect CGRect_Integral(CGRect rect) {
     }
 }
 
--(void)reload
+-(void)reload:(BOOL)animated
 {
-    [self updateSubviewsLayout];
+    [self updateSubviewsLayout:YES];
 }
 
 #pragma mark - 重写父类方法
@@ -97,7 +97,7 @@ NS_INLINE CGRect CGRect_Integral(CGRect rect) {
 
 -(void)orientationDidChange:(NSNotification *)notification
 {
-    [self updateSubviewsLayout];
+    [self updateSubviewsLayout:NO];
 }
 
 //-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context
@@ -109,7 +109,7 @@ NS_INLINE CGRect CGRect_Integral(CGRect rect) {
 
 #pragma mark - 私有方法
 
--(void)updateSubviewsLayout
+-(void)updateSubviewsLayout:(BOOL)animated
 {
     CGFloat margin = 20;
     
@@ -206,15 +206,42 @@ NS_INLINE CGRect CGRect_Integral(CGRect rect) {
     if (!CGRectIsEmpty(detailTextFrame)) {
         detailTextFrame = CGRectMake(margin, CGRectGetMinY(detailTextFrame), CGRectGetWidth(hudFrame) - margin * 2, CGRectGetHeight(detailTextFrame));
     }
+
+
+    textFrame = CGRect_Integral (textFrame);
+    detailTextFrame = CGRect_Integral (detailTextFrame);
+    indicatorFrame = CGRect_Integral (indicatorFrame);
+    hudFrame = CGRect_Integral (hudFrame);
     
-    self.hud.frame = CGRect_Integral(hudFrame);
+    _text.frame = CGRectMake(textFrame.origin.x, textFrame.origin.y, 0, 0);
+    _detailText.frame = CGRectMake(detailTextFrame.origin.x, detailTextFrame.origin.y, 0, 0);
     
-    _indicatorView.frame = CGRect_Integral(indicatorFrame);
+    void (^updates) (void) = ^{
+        self.hud.frame = hudFrame;
+        _indicatorView.frame = indicatorFrame;
+        _text.frame = textFrame;
+        _detailText.frame = detailTextFrame;
+
+    };
     
-    _text.frame = CGRect_Integral(textFrame);
-    
-    _detailText.frame = CGRect_Integral(detailTextFrame);
-    
+
+    if (animated)
+    {
+        [UIView animateWithDuration:self.animationDuration
+        delay:0.0
+        options:UIViewAnimationOptionAllowAnimatedContent | UIViewAnimationOptionCurveEaseInOut
+        animations:^{
+            updates ();
+        }
+        completion:^(BOOL finished){
+            
+        }];
+        
+    }
+    else
+    {
+        updates ();
+    }
 }
 
 -(void)showAnimated:(BOOL)animated

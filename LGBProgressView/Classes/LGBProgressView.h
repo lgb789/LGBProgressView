@@ -33,6 +33,6 @@ typedef void (^HudTapAction) (void);
 
 - (void)setProgress:(CGFloat)progress animated:(BOOL)animated;
 
-- (void)reload;
+-(void)reload:(BOOL)animated;
 
 @end

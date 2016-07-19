@@ -58,21 +58,45 @@
 {
     LGBProgressView *progressView = [LGBProgressView new];
     if (indexPath.row == 0) {
-        progressView.indicatorView = [LGBIndicatorView new];
-        progressView.style = LGBProgressViewStyleDark;
+        LGBProgressView *progress = [LGBProgressView new];
+        progress.indicatorView = [LGBIndicatorView new];
+        progress.style = LGBProgressViewStyleDark;
+        [progress showInView:self.view];
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            progress.text.text = @"dsfsd";
+            [progress reload:YES];
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [progress dismiss];
+            });
+        });
+        
+        return;
         
     }else if (indexPath.row == 1){
+        LGBProgressView *progress = [LGBProgressView new];
+        progress.indicatorView = [LGBIndicatorView new];
+        progress.text.text = @"正在登录...";
+        progress.style = LGBProgressViewStyleDark;
+        progress.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.4];
         
-        progressView.indicatorView = [LGBIndicatorView new];
-        progressView.text.text = @"加载";
-        progressView.style = LGBProgressViewStyleDark;
-        progressView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.4];
+        [progress showInView:self.view];
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            progress.text.text = @"用户名和密码错误";
+            [progress reload:YES];
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [progress dismiss];
+            });
+        });
+        
+        return;
         
         
     }else if (indexPath.row == 2){
         
         progressView.indicatorView = [LGBIndicatorView new];
-        progressView.text.text = @"正在加载...";
+        progressView.text.text = @"请输入用户名和密码";
         progressView.style = LGBProgressViewStyleDark;
         
     }else if (indexPath.row == 3){
@@ -181,7 +205,7 @@
     
     [hud setProgress:progress / 100.0 animated:NO];
     hud.detailText.text = [NSString stringWithFormat:@"%i%% Complete", progress];
-    [hud reload];
+    [hud reload:NO];
     
     if (progress >= 100) {
         
@@ -193,7 +217,7 @@
             hud.text.text = @"success!";
             //            hud.detailText.text = nil;
             
-            [hud reload];
+            [hud reload:NO];
         });
         
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
