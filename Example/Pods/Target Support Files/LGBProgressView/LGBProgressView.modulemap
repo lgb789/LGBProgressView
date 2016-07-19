@@ -1,0 +1,6 @@
+framework module LGBProgressView {
+  umbrella header "LGBProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}

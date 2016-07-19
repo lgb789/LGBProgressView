@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CED4F3087C0AAB7ABDC26BEFC3D172 /* LGBIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37936B3803A85E0C51698A2E2169A54E /* LGBIndicatorView.m */; };
+		12AF3E3011B2FAE25F73F3F066F7F2FA /* LGBIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EA31FDC9136D7E659E960E262CC7CB /* LGBIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21DA5160EADE1DFE8779703549BAD2E0 /* Pods-LGBProgressView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2991C931C2B95B3D6ABA85D1E898F6AE /* Pods-LGBProgressView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28841A57F1DC73C3F862E5B90F3E07D7 /* LGBPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446995454E2C0BF23863A697D50D5FE7 /* LGBPieIndicatorView.m */; };
+		3018E9C5ED19F63D777625CA10AE45F4 /* LGBProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E88728D4801AD2375C8B1E11FC4F063D /* LGBProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BD6661E435D1DDA74A3795FB832CA28 /* LGBProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9EB97AE4B1CA78CD233FB084D76B38 /* LGBProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46480EAA39D00B4795B3E112BC8042CB /* Pods-LGBProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF88326C62264BFCDCE865869849600F /* Pods-LGBProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E03D20905EBC6598BED5F08E1A4AC79 /* LGBIndicatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BFA34C3486D734736B6D284C3938BD /* LGBIndicatorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEE8A638C3F7568FE0C784CD615D5AC /* LGBProgressTypeDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 748860108457958A6A407C80E3F1A129 /* LGBProgressTypeDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		735000A0D60052E9D6F2E67433303804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7EC58E2E14856C5D94C0EB4B6CF2B0AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7FDD4C3CDF46D0EC2F2293D373E833EC /* LGBRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A257890BF7377B26D88AA8EDBAC227 /* LGBRingIndicatorView.m */; };
+		836EEE10541D2769FF281E0510D8EB46 /* Pods-LGBProgressView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 535EE049B85CF6CDD8ACADAC1391D4C0 /* Pods-LGBProgressView_Example-dummy.m */; };
+		854479406DEAC3CAB253CAAF1DE5A6DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8AB36620020A8DCF95BF342BDCECFF0F /* LGBRingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C5825227E4D98E106EA80E75A5E12EF6 /* LGBRingIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237AAE82FF2E096FCD35690426DA056 /* Pods-LGBProgressView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B752F346F9EB5E631F182A6D389B5E69 /* Pods-LGBProgressView_Tests-dummy.m */; };
+		B93951BE9072F8994F0D9A2EA795CC09 /* LGBIndicatorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6217933DD0C319738263EAF333E0A6E4 /* LGBIndicatorContentView.m */; };
+		D31C93221DD54B884AE330946D3691C8 /* LGBProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 648285EBD47ED009D2826D6BE10C2D73 /* LGBProgressView.m */; };
+		D51E1646AD1E2FBEEB8EB35C8A6F8350 /* LGBProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5106D1427C5B77A916E0280E52A5605 /* LGBProgressView-dummy.m */; };
+		E32A0120EEB328858952F41F354BC0A1 /* LGBPieIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C808A66CF1E46FE117C2CC3E94756F3 /* LGBPieIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3B4C0D0B8A9F0D1F7A00A2B4FE8DC4F /* LGBIndicatorContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5C6B8D7EAEE90F638018BE95BD226 /* LGBIndicatorContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBBEADDAAE7D61B58CC1081516C08B11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DFEB3724C1540450787798A8409658;
+			remoteInfo = LGBProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00338BC1220AA42CBFE5F0F1B7AAFB95 /* Pods-LGBProgressView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBProgressView_Tests-resources.sh"; sourceTree = "<group>"; };
+		0064CAF65E6600EDA42A2008A003C272 /* LGBProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D14B12551648FD9341277B8A27D9B31 /* Pods-LGBProgressView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBProgressView_Tests.modulemap"; sourceTree = "<group>"; };
+		0D3756287D8C9154EDBF4BD6051EF8EE /* Pods-LGBProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EE987E7D4B207576BEF4EE56A9FABB9 /* Pods-LGBProgressView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBProgressView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F9EB97AE4B1CA78CD233FB084D76B38 /* LGBProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBProgressView.h; sourceTree = "<group>"; };
+		15C5C6B8D7EAEE90F638018BE95BD226 /* LGBIndicatorContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBIndicatorContentView.h; sourceTree = "<group>"; };
+		1C808A66CF1E46FE117C2CC3E94756F3 /* LGBPieIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBPieIndicatorView.h; sourceTree = "<group>"; };
+		1FD59C9B02FF0243C28564E9E17D4AAC /* Pods_LGBProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C1C818B7ECCBA0412D44276F61407D /* Pods-LGBProgressView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBProgressView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2991C931C2B95B3D6ABA85D1E898F6AE /* Pods-LGBProgressView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBProgressView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2DF7C2752239B3A1880AA4E216C4ADD0 /* Pods-LGBProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		37936B3803A85E0C51698A2E2169A54E /* LGBIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBIndicatorView.m; sourceTree = "<group>"; };
+		3C9B9D98AE0192A587896630C033CA5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446995454E2C0BF23863A697D50D5FE7 /* LGBPieIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBPieIndicatorView.m; sourceTree = "<group>"; };
+		46AC0E84F7816A54EF587D7714683CFB /* Pods-LGBProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4722F052EE89FC2BA04DCAC06D040F58 /* Pods-LGBProgressView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBProgressView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		535EE049B85CF6CDD8ACADAC1391D4C0 /* Pods-LGBProgressView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBProgressView_Example-dummy.m"; sourceTree = "<group>"; };
+		55EA31FDC9136D7E659E960E262CC7CB /* LGBIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBIndicatorView.h; sourceTree = "<group>"; };
+		6217933DD0C319738263EAF333E0A6E4 /* LGBIndicatorContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBIndicatorContentView.m; sourceTree = "<group>"; };
+		64039CCE75E8AE601E019FCE59EE2F97 /* Pods-LGBProgressView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBProgressView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		648285EBD47ED009D2826D6BE10C2D73 /* LGBProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBProgressView.m; sourceTree = "<group>"; };
+		72B3D926B780CC6EA042D8DC9402DA13 /* Pods-LGBProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		748860108457958A6A407C80E3F1A129 /* LGBProgressTypeDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBProgressTypeDef.h; sourceTree = "<group>"; };
+		81A257890BF7377B26D88AA8EDBAC227 /* LGBRingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGBRingIndicatorView.m; sourceTree = "<group>"; };
+		856AE0CDD49F8B2AD8493667740C32B4 /* LGBProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBProgressView-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3A6E25156E7382C86743CAB0DD0B122 /* Pods-LGBProgressView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBProgressView_Example.modulemap"; sourceTree = "<group>"; };
+		AC4F7B8EC01D7D189856404E36D7B8BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B752F346F9EB5E631F182A6D389B5E69 /* Pods-LGBProgressView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBProgressView_Tests-dummy.m"; sourceTree = "<group>"; };
+		BC14C2169AF9F5486E58C6478F22F170 /* Pods-LGBProgressView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBProgressView_Example-resources.sh"; sourceTree = "<group>"; };
+		C5825227E4D98E106EA80E75A5E12EF6 /* LGBRingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBRingIndicatorView.h; sourceTree = "<group>"; };
+		CDC87CFFA429FAC2F32C71D5911BDA3D /* Pods-LGBProgressView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBProgressView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5106D1427C5B77A916E0280E52A5605 /* LGBProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBProgressView-dummy.m"; sourceTree = "<group>"; };
+		D7BFA34C3486D734736B6D284C3938BD /* LGBIndicatorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBIndicatorDelegate.h; sourceTree = "<group>"; };
+		DB3942A93E5B990A515E36E70AEAEF7A /* LGBProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBProgressView.xcconfig; sourceTree = "<group>"; };
+		DE414D8BC0A3E04F9FB31B988D9D2267 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08F741585AA7AC47D9DE95109A64A60 /* LGBProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LGBProgressView.modulemap; sourceTree = "<group>"; };
+		E545A692429A5FFCAE35175968407EDC /* Pods_LGBProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBProgressView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88728D4801AD2375C8B1E11FC4F063D /* LGBProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBProgressView-umbrella.h"; sourceTree = "<group>"; };
+		EBDEC300D1793B1228407174445178F9 /* Pods-LGBProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FF88326C62264BFCDCE865869849600F /* Pods-LGBProgressView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBProgressView_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73A0D439FB420CDE406C44EFE9D2180E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854479406DEAC3CAB253CAAF1DE5A6DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819BF6D6AE534358118EDAB440E76A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC58E2E14856C5D94C0EB4B6CF2B0AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F1243D467A1F9DA182B48B8515A390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735000A0D60052E9D6F2E67433303804 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03ED340E125BAF8D22E2F3241AF9E621 /* Pods-LGBProgressView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B9D98AE0192A587896630C033CA5E /* Info.plist */,
+				A3A6E25156E7382C86743CAB0DD0B122 /* Pods-LGBProgressView_Example.modulemap */,
+				0EE987E7D4B207576BEF4EE56A9FABB9 /* Pods-LGBProgressView_Example-acknowledgements.markdown */,
+				0D3756287D8C9154EDBF4BD6051EF8EE /* Pods-LGBProgressView_Example-acknowledgements.plist */,
+				535EE049B85CF6CDD8ACADAC1391D4C0 /* Pods-LGBProgressView_Example-dummy.m */,
+				4722F052EE89FC2BA04DCAC06D040F58 /* Pods-LGBProgressView_Example-frameworks.sh */,
+				BC14C2169AF9F5486E58C6478F22F170 /* Pods-LGBProgressView_Example-resources.sh */,
+				FF88326C62264BFCDCE865869849600F /* Pods-LGBProgressView_Example-umbrella.h */,
+				2DF7C2752239B3A1880AA4E216C4ADD0 /* Pods-LGBProgressView_Example.debug.xcconfig */,
+				EBDEC300D1793B1228407174445178F9 /* Pods-LGBProgressView_Example.release.xcconfig */,
+			);
+			name = "Pods-LGBProgressView_Example";
+			path = "Target Support Files/Pods-LGBProgressView_Example";
+			sourceTree = "<group>";
+		};
+		2C242884D9510F4FB0513236BFCEB7BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE414D8BC0A3E04F9FB31B988D9D2267 /* Info.plist */,
+				E08F741585AA7AC47D9DE95109A64A60 /* LGBProgressView.modulemap */,
+				DB3942A93E5B990A515E36E70AEAEF7A /* LGBProgressView.xcconfig */,
+				D5106D1427C5B77A916E0280E52A5605 /* LGBProgressView-dummy.m */,
+				856AE0CDD49F8B2AD8493667740C32B4 /* LGBProgressView-prefix.pch */,
+				E88728D4801AD2375C8B1E11FC4F063D /* LGBProgressView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGBProgressView";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4364B31359A3B07829F26A92F403858F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03ED340E125BAF8D22E2F3241AF9E621 /* Pods-LGBProgressView_Example */,
+				BF5EE493FBFCAAECD64064495784B6EC /* Pods-LGBProgressView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4FE498B9DCF796D165BCCAB40B656F32 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8042EDA4BCE1477294F38691873C97D3 /* LGBProgressView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4FE498B9DCF796D165BCCAB40B656F32 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A71512EBCBF08691E6B505F192C18840 /* Products */,
+				4364B31359A3B07829F26A92F403858F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F2960A370886AC6D049830FD2CC955A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15C5C6B8D7EAEE90F638018BE95BD226 /* LGBIndicatorContentView.h */,
+				6217933DD0C319738263EAF333E0A6E4 /* LGBIndicatorContentView.m */,
+				D7BFA34C3486D734736B6D284C3938BD /* LGBIndicatorDelegate.h */,
+				55EA31FDC9136D7E659E960E262CC7CB /* LGBIndicatorView.h */,
+				37936B3803A85E0C51698A2E2169A54E /* LGBIndicatorView.m */,
+				1C808A66CF1E46FE117C2CC3E94756F3 /* LGBPieIndicatorView.h */,
+				446995454E2C0BF23863A697D50D5FE7 /* LGBPieIndicatorView.m */,
+				748860108457958A6A407C80E3F1A129 /* LGBProgressTypeDef.h */,
+				0F9EB97AE4B1CA78CD233FB084D76B38 /* LGBProgressView.h */,
+				648285EBD47ED009D2826D6BE10C2D73 /* LGBProgressView.m */,
+				C5825227E4D98E106EA80E75A5E12EF6 /* LGBRingIndicatorView.h */,
+				81A257890BF7377B26D88AA8EDBAC227 /* LGBRingIndicatorView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8042EDA4BCE1477294F38691873C97D3 /* LGBProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				EACF1CE17F3DD9D195803BE4236C41A6 /* LGBProgressView */,
+				2C242884D9510F4FB0513236BFCEB7BB /* Support Files */,
+			);
+			name = LGBProgressView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A71512EBCBF08691E6B505F192C18840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0064CAF65E6600EDA42A2008A003C272 /* LGBProgressView.framework */,
+				E545A692429A5FFCAE35175968407EDC /* Pods_LGBProgressView_Example.framework */,
+				1FD59C9B02FF0243C28564E9E17D4AAC /* Pods_LGBProgressView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5EE493FBFCAAECD64064495784B6EC /* Pods-LGBProgressView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4F7B8EC01D7D189856404E36D7B8BA /* Info.plist */,
+				0D14B12551648FD9341277B8A27D9B31 /* Pods-LGBProgressView_Tests.modulemap */,
+				CDC87CFFA429FAC2F32C71D5911BDA3D /* Pods-LGBProgressView_Tests-acknowledgements.markdown */,
+				64039CCE75E8AE601E019FCE59EE2F97 /* Pods-LGBProgressView_Tests-acknowledgements.plist */,
+				B752F346F9EB5E631F182A6D389B5E69 /* Pods-LGBProgressView_Tests-dummy.m */,
+				23C1C818B7ECCBA0412D44276F61407D /* Pods-LGBProgressView_Tests-frameworks.sh */,
+				00338BC1220AA42CBFE5F0F1B7AAFB95 /* Pods-LGBProgressView_Tests-resources.sh */,
+				2991C931C2B95B3D6ABA85D1E898F6AE /* Pods-LGBProgressView_Tests-umbrella.h */,
+				72B3D926B780CC6EA042D8DC9402DA13 /* Pods-LGBProgressView_Tests.debug.xcconfig */,
+				46AC0E84F7816A54EF587D7714683CFB /* Pods-LGBProgressView_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGBProgressView_Tests";
+			path = "Target Support Files/Pods-LGBProgressView_Tests";
+			sourceTree = "<group>";
+		};
+		EACF1CE17F3DD9D195803BE4236C41A6 /* LGBProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				7F2960A370886AC6D049830FD2CC955A /* Classes */,
+			);
+			path = LGBProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A40001F5C52B40C1C919136CE20FBAB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46480EAA39D00B4795B3E112BC8042CB /* Pods-LGBProgressView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F710EEB3740944AD75FBEC59023219 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DA5160EADE1DFE8779703549BAD2E0 /* Pods-LGBProgressView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DD3428C83DB87D050A13C3DDC27CEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B4C0D0B8A9F0D1F7A00A2B4FE8DC4F /* LGBIndicatorContentView.h in Headers */,
+				4E03D20905EBC6598BED5F08E1A4AC79 /* LGBIndicatorDelegate.h in Headers */,
+				12AF3E3011B2FAE25F73F3F066F7F2FA /* LGBIndicatorView.h in Headers */,
+				E32A0120EEB328858952F41F354BC0A1 /* LGBPieIndicatorView.h in Headers */,
+				6CEE8A638C3F7568FE0C784CD615D5AC /* LGBProgressTypeDef.h in Headers */,
+				3018E9C5ED19F63D777625CA10AE45F4 /* LGBProgressView-umbrella.h in Headers */,
+				3BD6661E435D1DDA74A3795FB832CA28 /* LGBProgressView.h in Headers */,
+				8AB36620020A8DCF95BF342BDCECFF0F /* LGBRingIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		137D064F57817E9CB4963D7684484BCB /* Pods-LGBProgressView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F4349B5909B186AD4525733B5E50D4 /* Build configuration list for PBXNativeTarget "Pods-LGBProgressView_Tests" */;
+			buildPhases = (
+				CFD6D83CF7E518DBFB5BC8145162E4C0 /* Sources */,
+				819BF6D6AE534358118EDAB440E76A4B /* Frameworks */,
+				F6F710EEB3740944AD75FBEC59023219 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LGBProgressView_Tests";
+			productName = "Pods-LGBProgressView_Tests";
+			productReference = 1FD59C9B02FF0243C28564E9E17D4AAC /* Pods_LGBProgressView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFB89C3A06ABB1AA9A25C859ED33F064 /* Pods-LGBProgressView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF23ED5C545B12FC63789D4DF46D59BF /* Build configuration list for PBXNativeTarget "Pods-LGBProgressView_Example" */;
+			buildPhases = (
+				F4317A14DC6651DE79DA571BFEC0FC31 /* Sources */,
+				73A0D439FB420CDE406C44EFE9D2180E /* Frameworks */,
+				A40001F5C52B40C1C919136CE20FBAB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67A48DC97240C5EEAA7248B49DFE123 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGBProgressView_Example";
+			productName = "Pods-LGBProgressView_Example";
+			productReference = E545A692429A5FFCAE35175968407EDC /* Pods_LGBProgressView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4DFEB3724C1540450787798A8409658 /* LGBProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5942CE438B0D0D2C4D2056A98A8A43F /* Build configuration list for PBXNativeTarget "LGBProgressView" */;
+			buildPhases = (
+				A0E61D41F9664704EABD2268F9F4E5A0 /* Sources */,
+				F1F1243D467A1F9DA182B48B8515A390 /* Frameworks */,
+				F7DD3428C83DB87D050A13C3DDC27CEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGBProgressView;
+			productName = LGBProgressView;
+			productReference = 0064CAF65E6600EDA42A2008A003C272 /* LGBProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A71512EBCBF08691E6B505F192C18840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4DFEB3724C1540450787798A8409658 /* LGBProgressView */,
+				AFB89C3A06ABB1AA9A25C859ED33F064 /* Pods-LGBProgressView_Example */,
+				137D064F57817E9CB4963D7684484BCB /* Pods-LGBProgressView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0E61D41F9664704EABD2268F9F4E5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93951BE9072F8994F0D9A2EA795CC09 /* LGBIndicatorContentView.m in Sources */,
+				02CED4F3087C0AAB7ABDC26BEFC3D172 /* LGBIndicatorView.m in Sources */,
+				28841A57F1DC73C3F862E5B90F3E07D7 /* LGBPieIndicatorView.m in Sources */,
+				D51E1646AD1E2FBEEB8EB35C8A6F8350 /* LGBProgressView-dummy.m in Sources */,
+				D31C93221DD54B884AE330946D3691C8 /* LGBProgressView.m in Sources */,
+				7FDD4C3CDF46D0EC2F2293D373E833EC /* LGBRingIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD6D83CF7E518DBFB5BC8145162E4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B237AAE82FF2E096FCD35690426DA056 /* Pods-LGBProgressView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4317A14DC6651DE79DA571BFEC0FC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836EEE10541D2769FF281E0510D8EB46 /* Pods-LGBProgressView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D67A48DC97240C5EEAA7248B49DFE123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGBProgressView;
+			target = F4DFEB3724C1540450787798A8409658 /* LGBProgressView */;
+			targetProxy = DBBEADDAAE7D61B58CC1081516C08B11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BA08F52AF5955529B52639CEB57DAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		129535452486C5B423A9AE2ECA013982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3942A93E5B990A515E36E70AEAEF7A /* LGBProgressView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGBProgressView/LGBProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBProgressView/LGBProgressView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LGBProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		615CE4AA9B54BD9CA667534DF20BB3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF7C2752239B3A1880AA4E216C4ADD0 /* Pods-LGBProgressView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBProgressView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBProgressView_Example/Pods-LGBProgressView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LGBProgressView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7107B52D33DDFB0057D055247EAE7B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8843F43BF2FE226A063A565C9B376ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDEC300D1793B1228407174445178F9 /* Pods-LGBProgressView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBProgressView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBProgressView_Example/Pods-LGBProgressView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LGBProgressView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94895075448CC8513740B703FFE768E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3942A93E5B990A515E36E70AEAEF7A /* LGBProgressView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGBProgressView/LGBProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBProgressView/LGBProgressView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LGBProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF8912447C0EAD3CF1BB73D5692E2B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46AC0E84F7816A54EF587D7714683CFB /* Pods-LGBProgressView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBProgressView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBProgressView_Tests/Pods-LGBProgressView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LGBProgressView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EEE0A8230052D3EE3E380EED84C7F2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B3D926B780CC6EA042D8DC9402DA13 /* Pods-LGBProgressView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBProgressView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBProgressView_Tests/Pods-LGBProgressView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LGBProgressView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA08F52AF5955529B52639CEB57DAAC /* Debug */,
+				7107B52D33DDFB0057D055247EAE7B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F4349B5909B186AD4525733B5E50D4 /* Build configuration list for PBXNativeTarget "Pods-LGBProgressView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE0A8230052D3EE3E380EED84C7F2C6 /* Debug */,
+				DF8912447C0EAD3CF1BB73D5692E2B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF23ED5C545B12FC63789D4DF46D59BF /* Build configuration list for PBXNativeTarget "Pods-LGBProgressView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615CE4AA9B54BD9CA667534DF20BB3EB /* Debug */,
+				8843F43BF2FE226A063A565C9B376ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5942CE438B0D0D2C4D2056A98A8A43F /* Build configuration list for PBXNativeTarget "LGBProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94895075448CC8513740B703FFE768E2 /* Debug */,
+				129535452486C5B423A9AE2ECA013982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

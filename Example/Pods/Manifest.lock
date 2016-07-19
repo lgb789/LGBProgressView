@@ -1,0 +1,16 @@
+PODS:
+  - LGBProgressView (0.1.0)
+
+DEPENDENCIES:
+  - LGBProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  LGBProgressView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBProgressView: 76c1a380f12eaf2861826e66524396488528d2b5
+
+PODFILE CHECKSUM: 526c5744bfcc5ad398a51bda5ef1126c51b3bd12
+
+COCOAPODS: 1.0.1
